@@ -1,0 +1,9 @@
+opencv-python>=4.8
+numpy>=1.24
+shapely>=2.0
+ezdxf>=1.1
+pillow>=10.0
+streamlit>=1.30
+pytest>=7.0
+# opcional, solo si van a subir fotos HEIC del iPhone:
+# pillow-heif>=0.13

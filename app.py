@@ -1,3 +1,12 @@
+import os
+import sys
+
+# Agregar la carpeta actual al path de Python para evitar fallos de ruta
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "leatherflex"))
+
+
+
 """Interfaz de Leather-Flex 3D.  Ejecutar:  streamlit run app.py"""
 import os
 import json
